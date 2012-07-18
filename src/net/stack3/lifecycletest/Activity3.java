@@ -10,22 +10,22 @@ public class Activity3 extends BaseActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
         Button nextButton = (Button)findViewById(R.id.nextButton);
         nextButton.setVisibility(View.INVISIBLE);
-        
+
         Button showToastOnActivity1Button = (Button)findViewById(R.id.showToastOnActivity1Button);
         showToastOnActivity1Button.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-		        MyApplication app = (MyApplication)getApplication();
-		        app.setShowToastOnActivity1(true);
-		        setupCurrentInfo();
-			}
-		});
+            @Override
+            public void onClick(View v) {
+                MyApplication app = (MyApplication)getApplication();
+                app.setShowToastOnActivity1(true);
+                setupCurrentInfo();
+            }
+        });
     }
 
-	protected String getActivityTitle() {
-		return "Activity3";
-	}
+    protected String getActivityTitle() {
+        return "Activity3";
+    }
 }
