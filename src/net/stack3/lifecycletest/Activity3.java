@@ -5,6 +5,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**
+ * 
+ * @author EIMEI. stack3.net
+ *
+ */
 public class Activity3 extends BaseActivity {
     /** Called when the activity is first created. */
     @Override

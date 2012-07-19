@@ -6,6 +6,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**
+ * 
+ * @author EIMEI. stack3.net
+ *
+ */
 public class Activity2 extends BaseActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {

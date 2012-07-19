@@ -4,6 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+/**
+ * 
+ * @author EIMEI. stack3.net
+ *
+ */
 public class BaseActivity extends Activity {
     protected String getActivityTitle() {
         return null;

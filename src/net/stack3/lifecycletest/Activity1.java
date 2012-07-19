@@ -7,6 +7,11 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Toast;
 
+/**
+ * 
+ * @author EIMEI. stack3.net
+ *
+ */
 public class Activity1 extends BaseActivity {
     static {
         // static initializerでSystemプロパティの設定をする

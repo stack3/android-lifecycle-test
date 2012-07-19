@@ -5,6 +5,11 @@ import java.util.Date;
 import android.app.Application;
 import android.util.Log;
 
+/**
+ * 
+ * @author EIMEI. stack3.net
+ *
+ */
 public class MyApplication extends Application {
     private Date createdAt;
     // 次にActivity1を開いたらトーストを表示
